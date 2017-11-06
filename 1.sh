@@ -1,0 +1,1 @@
+./tools/test_net.py --gpu 0 --def models/pascal_voc/VGG16/FP_Net_end2end/test.prototxt --net ./output/FP_Net_end2end/voc_2007_trainval/fpn_iter_25000.caffemodel --imdb voc_2007_test --cfg experiments/cfgs/FP_Net_end2end.yml
